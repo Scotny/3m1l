@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FFFFFF;
+    height: 140px;
+    border-bottom: 2px solid #DEDBDB;
+}
+
+nav {
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 175px;
+    height: 47px;
+    margin-left: 171px;
+}
+
+nav h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    display: flex;
+    margin-right: 184px;
+}
+
+nav h3::before {
+    content: url(./internet.svg);
+    margin-right: 15px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.md {
+    background-color: #FFFFFF;
+    width: 650px;
+    height: 786px;
+    border-radius: 50px;
+    border: 1px solid #DEDBDB;
+    margin-top: 46px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.md1 {
+    width: 650px;
+    margin: 66px 50px 127px 65px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.md1 img {
+    width: 150px;
+    height: 40px;
+}
+
+.md1 h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    color: #F0400F;
+    display: flex;
+}
+
+.md1 h2::after {
+    content: url(./enter.svg);
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.md2 {
+    display: flex;
+    flex-flow: wrap column;
+    margin: 0 53px 0 64px;
+}
+
+.md2 h1 {
+    color: #0E0D5D;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+}
+
+.md2 input {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    border: 1px solid #75757530;
+    background-color: #FAFAFA;
+    margin-top: 39px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: #757575B2;
+    padding-left: 51px;
+}
+
+.md2 a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: #000000A3;
+    margin: 18px 190px 0 149px;
+}
+
+.mdb {
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    margin-bottom: 37px;
+    background-color: #F69E86;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    color: #FFFFFF;
+    margin-left: 390px;
+    margin-top: 31px;
+}
